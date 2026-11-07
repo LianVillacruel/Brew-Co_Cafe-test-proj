@@ -27,20 +27,15 @@
 
 /* LOGO */
 .loader-logo {
-  width: 65px;
-  height: 65px;
-  border: 1px solid #4b3025;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-family: "Playfair Display", serif;
-  font-size: 21px;
-  color: #4b3025;
+  width: 100px;
   animation: loader-appear 0.8s ease both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.loader-logo span {
-  color: #c68b59;
+.loader-logo img{
+    width: 100%;
 }
 
 /* BRAND */
