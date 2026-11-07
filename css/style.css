@@ -325,13 +325,13 @@ h2 em {
   object-fit: cover;
 }
 .gallery-large img {
-  height: 370px;
+  height: 570px;
 }
 .gallery-small {
   padding-bottom: 35px;
 }
 .gallery-small img {
-  height: 270px;
+  height: 370px;
 }
 .story-gallery figcaption {
   font-size: 8px;
