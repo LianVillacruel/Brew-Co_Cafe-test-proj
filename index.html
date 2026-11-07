@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4B3025" />
+    <meta
+      name="description"
+      content="Your cozy coffee corner in Daet. Discover handcrafted coffee, refreshing drinks, and freshly baked treats at Brew & Co. Café."
+    />
+    <title>Brew & Co. Café — Your Daily Pause</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="announcement">
+      A little pause, a better day. <span>·</span> Find your cup at Brew & Co.
+    </div>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Brew and Co home">
+        <span class="brand-mark">B<span>&</span>C</span>
+        <span class="brand-name"
+          >BREW <i>&</i> CO.<small>CAFÉ · DAET</small></span
+        >
+      </a>
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#story">Our café</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Find us</a>
+        <a class="nav-cta" href="#visit">Visit the café <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> YOUR COZY CORNER IN DAET</p>
+          <h1>Good coffee.<br /><em>Better moments.</em></h1>
+          <p class="hero-description">
+            Slow down, sip something lovely, and make room for the little
+            moments. Your table is waiting at Brew & Co. Café.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu"
+              >Explore our menu <span>↗</span></a
+            >
+            <a class="text-link" href="#visit">Come say hello <span>→</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon">✳</span
+            ><span
+              >Made with care, served with warmth.<small
+                >Unit 2 · Mabini Commercial Center, Daet</small
+              ></span
+            >
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1300&q=85"
+            alt="Warmly lit café counter with coffee being prepared"
+          />
+          <div class="image-caption">
+            <span>01 / THE BREW EXPERIENCE</span
+            ><span>☕ &nbsp; A moment for you</span>
+          </div>
+          <div class="floating-stamp">
+            TAKE<br />
+            A<br />
+            MOMENT
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <span>COFFEE · COMMUNITY · COMFORT</span
+          ><span>SCROLL TO EXPLORE ↓</span>
+        </div>
+      </section>
+
+      <section class="intro section-pad" id="story">
+        <div class="section-kicker">01 — A PLACE TO PAUSE</div>
+        <div class="intro-grid">
+          <h2>Not just a cup.<br /><em>A little comfort.</em></h2>
+          <div class="intro-text">
+            <p>
+              Whether it’s your morning pick-me-up, a study break, or a catch-up
+              with friends, Brew & Co. is here to make the everyday feel a
+              little warmer.
+            </p>
+            <p>
+              Come as you are. Find your favorite corner. We’ll take care of the
+              coffee.
+            </p>
+            <a class="underlined-link" href="#visit"
+              >Get to know us <span>↗</span></a
+            >
+          </div>
+        </div>
+        <div class="story-gallery">
+          <figure class="gallery-large">
+            <img
+              src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1100&q=85"
+              alt="Cozy café seating and warm interior"
+            />
+            <figcaption>YOUR EVERYDAY HIDEAWAY</figcaption>
+          </figure>
+          <figure class="gallery-small">
+            <img
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=850&q=85"
+              alt="Freshly brewed coffee on a café table"
+            />
+            <figcaption>BREWED FOR THE MOMENT</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="menu-section section-pad" id="menu">
+        <div class="menu-heading">
+          <div>
+            <div class="section-kicker">02 — SOMETHING GOOD IS BREWING</div>
+            <h2>Made to be <em>savored.</em></h2>
+          </div>
+          <p>
+            From familiar favorites to a little afternoon treat, find something
+            that feels just right.
+          </p>
+        </div>
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button
+            class="menu-tab active"
+            role="tab"
+            aria-selected="true"
+            data-category="coffee"
+          >
+            Coffee <span>04</span>
+          </button>
+          <button
+            class="menu-tab"
+            role="tab"
+            aria-selected="false"
+            data-category="drinks"
+          >
+            Non-coffee <span>02</span>
+          </button>
+          <button
+            class="menu-tab"
+            role="tab"
+            aria-selected="false"
+            data-category="bites"
+          >
+            Pastries & bites <span>02</span>
+          </button>
+        </div>
+        <div class="menu-grid" id="menuGrid">
+          <article class="menu-card" data-group="coffee">
+            <div class="menu-photo">
+              <img
+                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80"
+                alt="Spanish latte"
+                onerror="
+                  this.src =
+                    'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80'
+                "
+              />
+            </div>
+            <div class="menu-meta">
+              <div>
+                <h3>Spanish Latte</h3>
+                <p>Rich espresso · creamy milk</p>
+              </div>
+              <strong>₱120</strong>
+            </div>
+          </article>
+          <article class="menu-card" data-group="coffee">
+            <div class="menu-photo">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=700&q=80"
+                alt="Caramel macchiato"
+              />
+            </div>
+            <div class="menu-meta">
+              <div>
+                <h3>Caramel Macchiato</h3>
+                <p>Espresso · vanilla · caramel</p>
+              </div>
+              <strong>₱130</strong>
+            </div>
+          </article>
+          <article class="menu-card" data-group="coffee">
+            <div class="menu-photo">
+              <img
+                src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=80"
+                alt="Iced americano"
+              />
+            </div>
+            <div class="menu-meta">
+              <div>
+                <h3>Iced Americano</h3>
+                <p>Bold espresso · chilled</p>
+              </div>
+              <strong>₱95</strong>
+            </div>
+          </article>
+          <article class="menu-card" data-group="coffee">
+            <div class="menu-photo">
+              <img
+                src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=700&q=80"
+                alt="Vanilla latte"
+              />
+            </div>
+            <div class="menu-meta">
+              <div>
+                <h3>Vanilla Latte</h3>
+                <p>Espresso · smooth vanilla</p>
+              </div>
+              <strong>₱125</strong>
+            </div>
+          </article>
+          <article class="menu-card" data-group="drinks" hidden>
+            <div class="menu-photo">
+              <img
+                src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=700&q=80"
+                alt="Iced matcha latte"
+              />
+            </div>
+            <div class="menu-meta">
+              <div>
+                <h3>Iced Matcha Latte</h3>
+                <p>Earthy matcha · creamy milk</p>
+              </div>
+              <strong>₱135</strong>
+            </div>
+          </article>
+          <article class="menu-card" data-group="drinks" hidden>
+            <div class="menu-photo">
+              <img
+                src="https://images.unsplash.com/photo-1553787499-6f9133860278?auto=format&fit=crop&w=700&q=80"
+                alt="Strawberry milk"
+                onerror="
+                  this.src =
+                    'https://images.unsplash.com/photo-1553787499-6f9133860278?auto=format&fit=crop&w=700&q=80'
+                "
+              />
+            </div>
+            <div class="menu-meta">
+              <div>
+                <h3>Strawberry Milk</h3>
+                <p>Sweet · fruity · refreshing</p>
+              </div>
+              <strong>₱110</strong>
+            </div>
+          </article>
+          <article class="menu-card" data-group="bites" hidden>
+            <div class="menu-photo">
+              <img
+                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80"
+                alt="Butter croissant"
+              />
+            </div>
+            <div class="menu-meta">
+              <div>
+                <h3>Butter Croissant</h3>
+                <p>Flaky · golden · buttery</p>
+              </div>
+              <strong>₱85</strong>
+            </div>
+          </article>
+          <article class="menu-card" data-group="bites" hidden>
+            <div class="menu-photo">
+              <img
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80"
+                alt="Chocolate brownie"
+              />
+            </div>
+            <div class="menu-meta">
+              <div>
+                <h3>Chocolate Brownie</h3>
+                <p>Deep cocoa · fudgy center</p>
+              </div>
+              <strong>₱75</strong>
+            </div>
+          </article>
+        </div>
+        <p class="menu-footnote">
+          Prices are in Philippine pesos (₱). Menu and availability may change.
+        </p>
+      </section>
+
+      <section class="quote-band">
+        <div class="quote-mark">“</div>
+        <p>Life happens. Coffee helps.<br /><em>Make yourself at home.</em></p>
+        <span>BREW & CO. CAFÉ</span>
+      </section>
+
+      <section class="visit-section section-pad" id="visit">
+        <div class="visit-copy">
+          <div class="section-kicker">03 — YOUR NEXT COFFEE STOP</div>
+          <h2>We'll save<br /><em>you a seat.</em></h2>
+          <p>
+            Drop by for your favorite drink, bring a friend, or make us your
+            next study-break spot. We’d love to see you.
+          </p>
+          <a
+            class="button button-cream"
+            href="https://www.google.com/maps/search/?api=1&query=Unit+2%2C+Ground+Floor%2C+Mabini+Commercial+Center%2C+Daet%2C+Camarines+Norte%2C+Philippines"
+            target="_blank"
+            rel="noopener"
+            >Get directions <span>↗</span></a
+          >
+        </div>
+        <div class="visit-details">
+          <div class="detail-item">
+            <span>FIND US</span>
+            <p>
+              Unit 2, Ground Floor,<br />Mabini Commercial Center,<br />Daet,
+              Camarines Norte, Philippines
+            </p>
+          </div>
+          <div class="detail-item">
+            <span>GIVE US A CALL</span>
+            <p><a href="tel:+639178254630">0917 825 4630</a></p>
+          </div>
+          <div class="detail-item">
+            <span>SAY HELLO</span>
+            <p>
+              <a href="mailto:brewandco.cafe@gmail.com"
+                >brewandco.cafe@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="detail-item">
+            <span>OPENING HOURS</span>
+            <p>Please contact us to confirm<br />today’s operating hours.</p>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://facebook.com/brewandco.cafe"
+              target="_blank"
+              rel="noopener"
+              >Facebook ↗</a
+            ><a
+              href="https://instagram.com/brewandco.cafe"
+              target="_blank"
+              rel="noopener"
+              >Instagram ↗</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand footer-brand" href="#top"
+        ><span class="brand-mark">B<span>&</span>C</span
+        ><span class="brand-name"
+          >BREW <i>&</i> CO.<small>CAFÉ · DAET</small></span
+        ></a
+      >
+      <p>Good coffee. Better moments.</p>
+      <span>© <span id="year"></span> Brew & Co. Café</span>
+      <a class="back-top" href="#top">BACK TO TOP ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
