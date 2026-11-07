@@ -63,17 +63,11 @@ button {
   align-items: center;
   gap: 11px;
 }
-.brand-mark {
-  width: 39px;
-  height: 39px;
-  border: 1px solid var(--coffee);
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font: 600 13px var(--serif);
-  color: var(--coffee);
+
+.logo {
+  width: 90px;
 }
-.brand-mark span,
+
 .brand-name i {
   color: var(--caramel);
 }
@@ -546,7 +540,7 @@ h2 em {
   gap: 20px;
   background: #f0e5d8;
 }
-.footer .brand-mark {
+.footer {
   width: 33px;
   height: 33px;
 }
@@ -611,9 +605,9 @@ h2 em {
   .site-header {
     height: 68px;
   }
-  .brand-mark {
-    width: 35px;
-    height: 35px;
+  .brand-mark,
+  .logo {
+    width: 55px;
   }
   .menu-toggle {
     display: flex;
