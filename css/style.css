@@ -192,7 +192,8 @@ h2 em {
   font-size: 10px;
   font-weight: 700;
   border-bottom: 1px solid var(--caramel);
-  padding-bottom: 7px;
+  padding: 7px;
+  text-wrap: nowrap;
 }
 .text-link span {
   margin-left: 9px;
@@ -598,7 +599,7 @@ h2 em {
     padding: 25px 5%;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 710px) {
   .announcement {
     font-size: 8px;
   }
