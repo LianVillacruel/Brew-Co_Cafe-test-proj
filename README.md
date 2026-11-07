@@ -81,7 +81,11 @@ Follow these steps to run the project locally.
 2. Navigate to the project folder:
 
    ```bash
+   <<<<<<< HEAD
    cd Brew & Co. Café Landing page
+   =======
+   cd brew-and-co-cafe
+   >>>>>>> 820cae809f0e0433cd57b72bfeefaa3f743ae95d
    ```
 
 3. Open the folder in Visual Studio Code.
