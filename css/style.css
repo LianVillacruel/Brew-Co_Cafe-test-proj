@@ -523,6 +523,39 @@ h2 em {
 .detail-item a:hover {
   color: #d8a777;
 }
+
+.detail-item.hours-item {
+  padding-bottom: 20px;
+}
+
+.hours-list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-top: 13px;
+}
+
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.hours-row > span {
+  font-size: 10px;
+  color: #d1c0b1;
+  letter-spacing: 0;
+}
+
+.hours-row p {
+  font-size: 10px;
+  color: #f4e7d9;
+  margin: 0;
+  text-align: right;
+  white-space: nowrap;
+}
+
 .social-links {
   display: flex;
   gap: 25px;
