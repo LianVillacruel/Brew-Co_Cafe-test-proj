@@ -81,9 +81,7 @@ Follow these steps to run the project locally.
 2. Navigate to the project folder:
 
    ```bash
-
-   cd Brew & Co. Café Landing page
-   =======
+   cd "Brew & Co. Café Landing page"
 
    ```
 
