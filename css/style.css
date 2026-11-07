@@ -403,7 +403,7 @@ h2 em {
   display: none;
 }
 .menu-photo {
-  height: 215px;
+  height: 415px;
   overflow: hidden;
   background: #e7d8c6;
 }
@@ -425,22 +425,22 @@ h2 em {
   padding-top: 15px;
 }
 .menu-meta h3 {
-  font: 600 16px var(--serif);
+  font: 600 18px var(--serif);
   color: var(--coffee);
   margin: 0;
 }
 .menu-meta p {
-  font-size: 9px;
+  font-size: 10px;
   color: var(--muted);
   margin: 6px 0 0;
 }
 .menu-meta strong {
-  font-size: 12px;
+  font-size: 16px;
   color: var(--coffee);
   white-space: nowrap;
 }
 .menu-footnote {
-  font-size: 9px;
+  font-size: 11px;
   color: #8d7d6c;
   margin-top: 30px;
 }
